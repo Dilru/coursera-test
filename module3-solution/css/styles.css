@@ -1,0 +1,34 @@
+#header-nav{
+	background-color: #aabb88;
+}
+.navbar-brand{
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+	text-align: center;
+}
+.navbar-brand > a:hover{
+	text-decoration: none;
+}
+
+.navbar-brand h1{
+	margin: 5px;
+}
+
+.container-fluid{
+	background-color: #99cc99;
+	margin: 25px;
+}
+.container-fluid p{
+	margin: 25px;
+}
+
+@media (min-width: 767px) {
+.navbar-nav{
+	display: none;
+}}
+
+.navbar-default .navbar-nav>li>a{
+	text-align: center;
+	color: white;
+	font-weight: bold;
+}
